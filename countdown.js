@@ -33,6 +33,8 @@
 
         //do something later when date is reached
         if (distance < 0) {
+          document.write(5 + 6);
+
         }
         //seconds
       }, 0)
