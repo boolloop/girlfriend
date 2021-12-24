@@ -33,8 +33,6 @@
 
         //do something later when date is reached
         if (distance < 0) {
-          location.href = "https://boolloop.github.io/happybirthdayjulie/";
-         
         }
         //seconds
       }, 0)
