@@ -33,8 +33,8 @@
 
         //do something later when date is reached
         if (distance < 0) {
-          document.write(5 + 6);
-
+          location.href = "https://boolloop.github.io/happybirthdayjulie/";
+          clearInterval(x);
         }
         //seconds
       }, 0)
