@@ -33,7 +33,9 @@
 
         //do something later when date is reached
         if (distance < 0) {
-          location.href = "https://boolloop.github.io/happybirthdayjulie/";
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
           clearInterval(x);
         }
         //seconds
